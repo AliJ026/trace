@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="60" y="42" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f2937">Figure 2. Axis 3 contextual policy bifurcation across the primary matrix</text>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#475569">Higher values indicate larger monitored vs unmonitored decisive-tool divergence.</text>
+<line x1="120" y1="500.0" x2="1040" y2="500.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="108" y="505.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">0.00</text>
+<line x1="120" y1="418.0" x2="1040" y2="418.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="108" y="423.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">0.05</text>
+<line x1="120" y1="336.0" x2="1040" y2="336.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="108" y="341.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">0.10</text>
+<line x1="120" y1="254.0" x2="1040" y2="254.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="108" y="259.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">0.15</text>
+<line x1="120" y1="172.0" x2="1040" y2="172.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="108" y="177.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">0.20</text>
+<line x1="120" y1="90.0" x2="1040" y2="90.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="108" y="95.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">0.25</text>
+<line x1="120" y1="90" x2="120" y2="500" stroke="#334155" stroke-width="2"/>
+<line x1="120" y1="500" x2="1040" y2="500" stroke="#334155" stroke-width="2"/>
+<rect x="170" y="500.0" width="120" height="0.0" rx="8" ry="8" fill="#475569"/>
+<text x="230.0" y="490.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0f172a">0.0000</text>
+<text x="230.0" y="528" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#0f172a">GPT-4o</text>
+<rect x="360" y="368.308" width="120" height="131.692" rx="8" ry="8" fill="#f59e0b"/>
+<text x="420.0" y="358.308" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0f172a">0.0803</text>
+<text x="420.0" y="528" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#0f172a">Gemini 2.5 Flash</text>
+<rect x="550" y="163.308" width="120" height="336.692" rx="8" ry="8" fill="#dc2626"/>
+<text x="610.0" y="153.308" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0f172a">0.2053</text>
+<text x="610.0" y="528" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#0f172a">Gemini 2.5 Pro</text>
+<rect x="740" y="458.18" width="120" height="41.82" rx="8" ry="8" fill="#2563eb"/>
+<text x="800.0" y="448.18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0f172a">0.0255</text>
+<text x="800.0" y="528" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#0f172a">Gemini 3.1 Pro Preview</text>
+</svg>

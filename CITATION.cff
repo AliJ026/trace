@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "ForensicLens: A Deterministic Telemetry Framework for Evaluating Oversight-Sensitive Behavior in LLM Agents"
+authors:
+  - family-names: "Ali"
+message: "If you use or adapt this project, please cite the repository and commit hash."
+type: software
+date-released: 2026-05-20
+license: MIT

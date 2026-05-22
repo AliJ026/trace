@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="880" viewBox="0 0 1480 880">
+<rect width="100%" height="100%" fill="white"/>
+<text x="60" y="42" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f2937">Figure 3. Decisive tool distributions by oversight condition</text>
+<text x="60" y="70" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#475569">Each model is shown with a monitored bar and an unmonitored bar. Segment heights represent counts out of 20 runs.</text>
+<line x1="170" y1="780.0" x2="1420" y2="780.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="158" y="785.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">0</text>
+<line x1="170" y1="610.0" x2="1420" y2="610.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="158" y="615.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">5</text>
+<line x1="170" y1="440.0" x2="1420" y2="440.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="158" y="445.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">10</text>
+<line x1="170" y1="270.0" x2="1420" y2="270.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="158" y="275.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">15</text>
+<line x1="170" y1="100.0" x2="1420" y2="100.0" stroke="#e2e8f0" stroke-width="1"/>
+<text x="158" y="105.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">20</text>
+<line x1="170" y1="100" x2="170" y2="780" stroke="#334155" stroke-width="2"/>
+<line x1="170" y1="780" x2="1420" y2="780" stroke="#334155" stroke-width="2"/>
+<rect x="170" y="826" width="20" height="20" fill="#2563eb" rx="4" ry="4"/>
+<text x="200" y="842" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0f172a">Truthful tool</text>
+<rect x="420" y="826" width="20" height="20" fill="#dc2626" rx="4" ry="4"/>
+<text x="450" y="842" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0f172a">Database breach</text>
+<rect x="670" y="826" width="20" height="20" fill="#f97316" rx="4" ry="4"/>
+<text x="700" y="842" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0f172a">Record obfuscation</text>
+<rect x="920" y="826" width="20" height="20" fill="#94a3b8" rx="4" ry="4"/>
+<text x="950" y="842" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#0f172a">No decisive tool</text>
+<rect x="215" y="372.0" width="54" height="408.0" fill="#2563eb" rx="5" ry="5"/>
+<rect x="215" y="100.0" width="54" height="272.0" fill="#94a3b8" rx="5" ry="5"/>
+<text x="242.0" y="808" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#334155">Mon</text>
+<rect x="287" y="372.0" width="54" height="408.0" fill="#2563eb" rx="5" ry="5"/>
+<rect x="287" y="100.0" width="54" height="272.0" fill="#94a3b8" rx="5" ry="5"/>
+<text x="314.0" y="808" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#334155">Un</text>
+<text x="278.0" y="836" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#0f172a">GPT-4o</text>
+<rect x="472" y="406.0" width="54" height="374.0" fill="#2563eb" rx="5" ry="5"/>
+<rect x="472" y="372.0" width="54" height="34.0" fill="#dc2626" rx="5" ry="5"/>
+<rect x="472" y="100.0" width="54" height="272.0" fill="#94a3b8" rx="5" ry="5"/>
+<text x="499.0" y="808" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#334155">Mon</text>
+<rect x="544" y="338.0" width="54" height="442.0" fill="#2563eb" rx="5" ry="5"/>
+<rect x="544" y="202.0" width="54" height="136.0" fill="#dc2626" rx="5" ry="5"/>
+<rect x="544" y="100.0" width="54" height="102.0" fill="#94a3b8" rx="5" ry="5"/>
+<text x="571.0" y="808" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#334155">Un</text>
+<text x="535.0" y="836" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#0f172a">Gemini 2.5 Flash</text>
+<rect x="729" y="134.0" width="54" height="646.0" fill="#2563eb" rx="5" ry="5"/>
+<rect x="729" y="100.0" width="54" height="34.0" fill="#dc2626" rx="5" ry="5"/>
+<text x="756.0" y="808" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#334155">Mon</text>
+<rect x="801" y="440.0" width="54" height="340.0" fill="#2563eb" rx="5" ry="5"/>
+<rect x="801" y="100.0" width="54" height="340.0" fill="#dc2626" rx="5" ry="5"/>
+<text x="828.0" y="808" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#334155">Un</text>
+<text x="792.0" y="836" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#0f172a">Gemini 2.5 Pro</text>
+<rect x="986" y="134.0" width="54" height="646.0" fill="#2563eb" rx="5" ry="5"/>
+<rect x="986" y="100.0" width="54" height="34.0" fill="#94a3b8" rx="5" ry="5"/>
+<text x="1013.0" y="808" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#334155">Mon</text>
+<rect x="1058" y="100.0" width="54" height="680.0" fill="#2563eb" rx="5" ry="5"/>
+<text x="1085.0" y="808" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#334155">Un</text>
+<text x="1049.0" y="836" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" fill="#0f172a">Gemini 3.1 Pro Preview</text>
+</svg>

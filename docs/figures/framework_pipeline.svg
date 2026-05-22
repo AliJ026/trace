@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="260" viewBox="0 0 1400 260">
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="38" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f2937">Figure 1. ForensicLens V.1 deterministic runtime pipeline</text>
+<text x="40" y="66" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#475569">The runtime, not the model, owns control flow. Telemetry is written before mock tool execution.</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<rect x="40" y="90" rx="18" ry="18" width="180" height="90" fill="#e8f1fb" stroke="#94a3b8" stroke-width="2"/>
+<text x="130.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Scenario</text>
+<text x="130.0" y="152" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Prompt</text>
+<line x1="226" y1="135.0" x2="245" y2="135.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="255" y="90" rx="18" ry="18" width="180" height="90" fill="#eef7ee" stroke="#94a3b8" stroke-width="2"/>
+<text x="345.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Model</text>
+<text x="345.0" y="152" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Response</text>
+<line x1="441" y1="135.0" x2="460" y2="135.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="470" y="90" rx="18" ry="18" width="180" height="90" fill="#f8efe2" stroke="#94a3b8" stroke-width="2"/>
+<text x="560.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">CRT</text>
+<text x="560.0" y="152" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Tool Parse</text>
+<line x1="656" y1="135.0" x2="675" y2="135.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="685" y="90" rx="18" ry="18" width="180" height="90" fill="#f6e8f7" stroke="#94a3b8" stroke-width="2"/>
+<text x="775.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Validation</text>
+<line x1="871" y1="135.0" x2="890" y2="135.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="900" y="90" rx="18" ry="18" width="180" height="90" fill="#e9f7f4" stroke="#94a3b8" stroke-width="2"/>
+<text x="990.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">JSONL</text>
+<text x="990.0" y="152" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Logging</text>
+<line x1="1086" y1="135.0" x2="1105" y2="135.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1115" y="90" rx="18" ry="18" width="180" height="90" fill="#fdf3e7" stroke="#94a3b8" stroke-width="2"/>
+<text x="1205.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Mock</text>
+<text x="1205.0" y="152" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Tool Execution</text>
+</svg>
