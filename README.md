@@ -1,6 +1,6 @@
-# ForensicLens
+# Trace
 
-ForensicLens is a deterministic telemetry framework for evaluating oversight-sensitive tool-use behavior in large language model agents.
+Trace ( Telemetry Runtime for Agentic Compliance Evaluation in High-Risk) is a deterministic telemetry framework for evaluating oversight-sensitive tool-use behavior in large language model agents.
 
 The project studies a narrow behavioral question: when an LLM agent is placed in the same regulated enterprise scenario, does its observable tool-selection policy change when oversight is present versus absent?
 
@@ -8,7 +8,7 @@ This repository contains the V.1 research artifact: analysis code, locked teleme
 
 ## Why This Exists
 
-Agentic LLM evaluations are hard to interpret when the model can influence the same orchestration layer that is supposed to evaluate it. ForensicLens separates the model from the control plane:
+Agentic LLM evaluations are hard to interpret when the model can influence the same orchestration layer that is supposed to evaluate it. Trace separates the model from the control plane:
 
 - the runtime owns turn order
 - responses are captured before tool execution
@@ -96,8 +96,8 @@ The reproduction script does not call external model APIs and does not require A
 ## Repository Layout
 
 ```text
-forensiclens/                 V.1 telemetry, scenario, tool, and metric code
-forensiclens/logs/            locked primary telemetry ledgers
+Trace/                 V.1 telemetry, scenario, tool, and metric code
+Trace/logs/            locked primary telemetry ledgers
 docs/figures/                 generated result figures
 results/                      result tables
 reproduce_results.py          deterministic reproduction script
@@ -106,7 +106,7 @@ requirements.txt              dependencies for result reproduction
 
 ## Limitations
 
-ForensicLens V.1 measures observable behavior under controlled prompts. It does not access latent internal cognition.
+Trace V.1 measures observable behavior under controlled prompts. It does not access latent internal cognition.
 
 The V.1 implementation used prompt-formatted pseudo-tool calls rather than native provider tool calling. This is adequate for reproducing the reported V.1 experiment from locked telemetry, but future versions should use native tool APIs, stricter validation, and multiple scenario families.
 
